@@ -2,11 +2,18 @@
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                tools:context="com.epicodus.tortunebandfanapp.ui.AlbumActivity">
+                tools:context="com.epicodus.tortunebandfanapp.ui.AlbumActivity"
+                android:background="@drawable/background"
+                android:padding="8dp">
 
     <TextView
         android:text="ALBUM"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/albumTitle"
+        android:gravity="center_horizontal"
+        android:textSize="32sp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"/>
 
 </RelativeLayout>
